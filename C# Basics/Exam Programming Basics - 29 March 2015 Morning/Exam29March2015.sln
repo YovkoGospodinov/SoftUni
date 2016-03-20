@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.TorrentPirate", "01.TorrentPirate\01.TorrentPirate.csproj", "{1408170E-DBB1-4C63-A099-988E4B7320CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BasketBattle", "02.BasketBattle\02.BasketBattle.csproj", "{395BB83A-6585-4360-908E-9A1B7D15C9F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Dumbbell", "03.Dumbbell\03.Dumbbell.csproj", "{64292AD3-71DE-4381-BC4F-74A076DB9125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1408170E-DBB1-4C63-A099-988E4B7320CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1408170E-DBB1-4C63-A099-988E4B7320CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1408170E-DBB1-4C63-A099-988E4B7320CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1408170E-DBB1-4C63-A099-988E4B7320CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395BB83A-6585-4360-908E-9A1B7D15C9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395BB83A-6585-4360-908E-9A1B7D15C9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395BB83A-6585-4360-908E-9A1B7D15C9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395BB83A-6585-4360-908E-9A1B7D15C9F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64292AD3-71DE-4381-BC4F-74A076DB9125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64292AD3-71DE-4381-BC4F-74A076DB9125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64292AD3-71DE-4381-BC4F-74A076DB9125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64292AD3-71DE-4381-BC4F-74A076DB9125}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

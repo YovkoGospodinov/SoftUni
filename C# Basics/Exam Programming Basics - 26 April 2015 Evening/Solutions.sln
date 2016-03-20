@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CompoundInterest", "01.CompoundInterest\01.CompoundInterest.csproj", "{7EFCE341-C2BF-42CB-B39D-9FF25655E0B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.PetarGame", "02.PetarGame\02.PetarGame.csproj", "{908F98F4-7B12-4C8D-8C70-2E371E3A4EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Sunlight", "03.Sunlight\03.Sunlight.csproj", "{B2C3B249-C734-44A3-AB64-5B8EDA608284}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EFCE341-C2BF-42CB-B39D-9FF25655E0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFCE341-C2BF-42CB-B39D-9FF25655E0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFCE341-C2BF-42CB-B39D-9FF25655E0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFCE341-C2BF-42CB-B39D-9FF25655E0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908F98F4-7B12-4C8D-8C70-2E371E3A4EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908F98F4-7B12-4C8D-8C70-2E371E3A4EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908F98F4-7B12-4C8D-8C70-2E371E3A4EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908F98F4-7B12-4C8D-8C70-2E371E3A4EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C3B249-C734-44A3-AB64-5B8EDA608284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C3B249-C734-44A3-AB64-5B8EDA608284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C3B249-C734-44A3-AB64-5B8EDA608284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C3B249-C734-44A3-AB64-5B8EDA608284}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
