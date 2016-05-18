@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ReverseNumbers", "01.ReverseNumbers\01.ReverseNumbers.csproj", "{9261003B-5C03-42F7-A197-0B7A6CC20C81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BasicOperations", "02.BasicOperations\02.BasicOperations.csproj", "{30F08179-23DC-48C4-8A08-B6861D71844D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MaxElement", "03.MaxElement\03.MaxElement.csproj", "{21942DC4-5CF2-4C13-91DD-2B8566185AD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9261003B-5C03-42F7-A197-0B7A6CC20C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9261003B-5C03-42F7-A197-0B7A6CC20C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9261003B-5C03-42F7-A197-0B7A6CC20C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9261003B-5C03-42F7-A197-0B7A6CC20C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F08179-23DC-48C4-8A08-B6861D71844D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F08179-23DC-48C4-8A08-B6861D71844D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F08179-23DC-48C4-8A08-B6861D71844D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F08179-23DC-48C4-8A08-B6861D71844D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21942DC4-5CF2-4C13-91DD-2B8566185AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21942DC4-5CF2-4C13-91DD-2B8566185AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21942DC4-5CF2-4C13-91DD-2B8566185AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21942DC4-5CF2-4C13-91DD-2B8566185AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
