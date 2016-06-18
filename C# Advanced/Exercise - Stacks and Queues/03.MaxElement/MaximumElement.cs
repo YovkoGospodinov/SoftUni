@@ -12,31 +12,37 @@ namespace _03.MaxElement
         {
             int queries = int.Parse(Console.ReadLine());
             Stack<int> numbers = new Stack<int>();
+            Stack<int> maxNumbers = new Stack<int>();
+            int maximumEl = int.MinValue;
             for (int i = 0; i < queries; i++)
             {
-                int[] input = Console.ReadLine().Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
-                if (input.Length > 1)
+                string[] input = Console.ReadLine().Split();
+                string command = input[0];
+                if (command == "1")
                 {
-                    numbers.Push(input[1]);
+                    int numberToPush = int.Parse(input[1]);
+                    numbers.Push(numberToPush);
+                    if (maxNumbers.Count == 0 || numberToPush >= maxNumbers.Peek())
+                    {
+                        maxNumbers.Push(numberToPush);
+                    }
+                }
+                else if (command == "2")
+                {
+                    int numberAtTop = numbers.Pop();
+                    int maxNumber = maxNumbers.Peek();
+                    if (numberAtTop == maxNumber)
+                    {
+                        maxNumbers.Pop();
+                        if (maxNumbers.Count > 0)
+                        {
+                            maximumEl = maxNumbers.Peek();
+                        }
+                    }
                 }
                 else
                 {
-                    if (input[0] == 2)
-                    {
-                        numbers.Pop();
-                    }
-                    else
-                    {
-                        int maximumEl = int.MinValue;
-                        foreach (int number in numbers)
-                        {
-                            if (number > maximumEl)
-                            {
-                                maximumEl = number;
-                            }
-                        }
-                        Console.WriteLine(maximumEl);
-                    }
+                    Console.WriteLine(maxNumbers.Peek());
                 }
             }
         }
