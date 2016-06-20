@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Cubic’sMessages", "03.Cubic’sMessages\03.Cubic’sMessages.csproj", "{73CEDD81-37CE-4FCF-B521-BCBB6042FEF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Cubic'sRube", "02.Cubic'sRube\02.Cubic'sRube.csproj", "{7A183803-1B44-4F74-99D3-12AEB8DAD1D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021.Cubic'sRude", "021.Cubic'sRude\021.Cubic'sRude.csproj", "{44907C10-87C3-4FBD-B09C-9A10A25D4E07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73CEDD81-37CE-4FCF-B521-BCBB6042FEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CEDD81-37CE-4FCF-B521-BCBB6042FEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CEDD81-37CE-4FCF-B521-BCBB6042FEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CEDD81-37CE-4FCF-B521-BCBB6042FEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A183803-1B44-4F74-99D3-12AEB8DAD1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A183803-1B44-4F74-99D3-12AEB8DAD1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A183803-1B44-4F74-99D3-12AEB8DAD1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A183803-1B44-4F74-99D3-12AEB8DAD1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44907C10-87C3-4FBD-B09C-9A10A25D4E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44907C10-87C3-4FBD-B09C-9A10A25D4E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44907C10-87C3-4FBD-B09C-9A10A25D4E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44907C10-87C3-4FBD-B09C-9A10A25D4E07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
