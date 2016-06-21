@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01.UniqueUsernames
+﻿namespace _01.UniqueUsernames
 {
-    class UniqueUsers
+    using System;
+    using System.Collections.Generic;
+
+    public class UniqueUsers
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             HashSet<string> database = new HashSet<string>();

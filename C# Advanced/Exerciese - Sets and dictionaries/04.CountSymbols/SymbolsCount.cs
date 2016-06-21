@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _04.CountSymbols
+﻿namespace _04.CountSymbols
 {
-    class SymbolsCount
+    using System;
+    using System.Collections.Generic;
+
+    public class SymbolsCount
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             string input = Console.ReadLine();
 
@@ -17,6 +14,7 @@ namespace _04.CountSymbols
             for (int i = 0; i < input.Length; i++)
             {
                 char currentSymbol = input[i];
+
                 if (!sylmbols.ContainsKey(currentSymbol))
                 {
                     sylmbols.Add(currentSymbol, 1);

@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03.PeriodicTable
+﻿namespace _03.PeriodicTable
 {
-    class PeriodicTable
+    using System;
+    using System.Collections.Generic;
+
+    public class PeriodicTable
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int n = int.Parse(Console.ReadLine());
 
@@ -22,6 +19,7 @@ namespace _03.PeriodicTable
                     chemicalelements.Add(input[j]);
                 }
             }
+
             Console.WriteLine(string.Join(" ", chemicalelements));
         }
     }

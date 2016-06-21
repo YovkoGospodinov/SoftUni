@@ -1,46 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _06.MinerTask
+﻿namespace _06.MinerTask
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Numerics;
+
     class MinerTask
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Dictionary<string, long> resources = new Dictionary<string, long>();
-            int count = 1;
-            string resourceName = "";
-            while (true)
+            Dictionary<string, BigInteger> resources = new Dictionary<string, BigInteger>();
+            int count = 0;
+            string input = Console.ReadLine().Trim();
+            string currentResource = string.Empty;
+
+            while (input != "stop")
             {
-                string input = Console.ReadLine().Trim();
-                
-                if (count % 2 != 0)
+                if (count % 2 == 0)
                 {
-                    resourceName = input;
-                }
-                if (input == "stop")
-                {
-                    break;
-                }
-                if (count % 2 != 0)
-                {
-                    if (!resources.ContainsKey(input))
+                    currentResource = input;
+
+                    if (!resources.ContainsKey(currentResource))
                     {
-                        resources.Add(input, 0);
+                        resources[currentResource] = 0;
                     }
                 }
                 else
                 {
-                    if (resources.ContainsKey(resourceName))
-                    {
-                        resources[resourceName] = int.Parse(input);
-                    }
+                    resources[currentResource] += int.Parse(input);
                 }
+
                 count++;
+                input = Console.ReadLine();
             }
+
             foreach (var kvp in resources)
             {
                 Console.WriteLine($"{kvp.Key} -> {kvp.Value}");
