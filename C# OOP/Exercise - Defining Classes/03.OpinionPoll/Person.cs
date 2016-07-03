@@ -1,10 +1,9 @@
-﻿namespace _01.DefiningClasses
+﻿namespace _03.OpinionPolls
 {
     public class Person
     {
-        //the fields are set public for the need of the task
-        public string name;
-        public int age;
+        private string name;
+        private int age;
 
         public Person()
         {
