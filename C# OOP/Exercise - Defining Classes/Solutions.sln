@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.RawData", "06.RawData\06
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Google", "09.Google\09.Google.csproj", "{73BE6C8E-B8C9-494A-9200-000D605FF167}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.CatLady", "11.CatLady\11.CatLady.csproj", "{EF64F9B8-DBE3-4F67-BD0A-00A621B91A3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{73BE6C8E-B8C9-494A-9200-000D605FF167}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73BE6C8E-B8C9-494A-9200-000D605FF167}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73BE6C8E-B8C9-494A-9200-000D605FF167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF64F9B8-DBE3-4F67-BD0A-00A621B91A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF64F9B8-DBE3-4F67-BD0A-00A621B91A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF64F9B8-DBE3-4F67-BD0A-00A621B91A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF64F9B8-DBE3-4F67-BD0A-00A621B91A3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
