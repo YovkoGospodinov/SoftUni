@@ -1,0 +1,6 @@
+C:\Programming Courses\SoftUni\C# OOP\Polymorphism 01.07.2016\Exercise\Solutions\02.VehiclesExtension\bin\Debug\02.VehiclesExtension.exe.config
+C:\Programming Courses\SoftUni\C# OOP\Polymorphism 01.07.2016\Exercise\Solutions\02.VehiclesExtension\bin\Debug\02.VehiclesExtension.exe
+C:\Programming Courses\SoftUni\C# OOP\Polymorphism 01.07.2016\Exercise\Solutions\02.VehiclesExtension\bin\Debug\02.VehiclesExtension.pdb
+C:\Programming Courses\SoftUni\C# OOP\Polymorphism 01.07.2016\Exercise\Solutions\02.VehiclesExtension\obj\Debug\02.VehiclesExtension.csprojResolveAssemblyReference.cache
+C:\Programming Courses\SoftUni\C# OOP\Polymorphism 01.07.2016\Exercise\Solutions\02.VehiclesExtension\obj\Debug\02.VehiclesExtension.exe
+C:\Programming Courses\SoftUni\C# OOP\Polymorphism 01.07.2016\Exercise\Solutions\02.VehiclesExtension\obj\Debug\02.VehiclesExtension.pdb
