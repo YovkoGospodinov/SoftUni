@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CardSuit", "01.CardSuit\01.CardSuit.csproj", "{D27401E3-5589-4E9A-808C-F46A48E8F418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CardRank", "02.CardRank\02.CardRank.csproj", "{989D21FC-83FE-4A91-952E-3D18BD240B39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CardPower", "03.CardPower\03.CardPower.csproj", "{0F96BEC9-B6BD-45BB-851D-7ECAB47C24F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CardToString()", "04.CardToString()\04.CardToString().csproj", "{9A337BAA-02FC-4959-9E75-6FA68CEC8801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CardCompareTo", "05.CardCompareTo\05.CardCompareTo.csproj", "{C4E6804B-240E-4026-B0B2-5789883FDEA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.CustomEnumAttribute", "06.CustomEnumAttribute\06.CustomEnumAttribute.csproj", "{F7FECA7A-8C40-453D-93B5-9CC2947F52AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D27401E3-5589-4E9A-808C-F46A48E8F418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27401E3-5589-4E9A-808C-F46A48E8F418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27401E3-5589-4E9A-808C-F46A48E8F418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27401E3-5589-4E9A-808C-F46A48E8F418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989D21FC-83FE-4A91-952E-3D18BD240B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989D21FC-83FE-4A91-952E-3D18BD240B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989D21FC-83FE-4A91-952E-3D18BD240B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989D21FC-83FE-4A91-952E-3D18BD240B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F96BEC9-B6BD-45BB-851D-7ECAB47C24F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F96BEC9-B6BD-45BB-851D-7ECAB47C24F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F96BEC9-B6BD-45BB-851D-7ECAB47C24F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F96BEC9-B6BD-45BB-851D-7ECAB47C24F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A337BAA-02FC-4959-9E75-6FA68CEC8801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A337BAA-02FC-4959-9E75-6FA68CEC8801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A337BAA-02FC-4959-9E75-6FA68CEC8801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A337BAA-02FC-4959-9E75-6FA68CEC8801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E6804B-240E-4026-B0B2-5789883FDEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E6804B-240E-4026-B0B2-5789883FDEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E6804B-240E-4026-B0B2-5789883FDEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E6804B-240E-4026-B0B2-5789883FDEA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FECA7A-8C40-453D-93B5-9CC2947F52AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FECA7A-8C40-453D-93B5-9CC2947F52AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FECA7A-8C40-453D-93B5-9CC2947F52AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FECA7A-8C40-453D-93B5-9CC2947F52AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
