@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.StrategyPattern", "06.St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.EqualityLogic", "07.EqualityLogic\07.EqualityLogic.csproj", "{DAF207FE-42B2-49EE-9E08-EFEDFB88466F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.PetClinics", "08.PetClinics\08.PetClinics.csproj", "{CC5DFFD8-3D8E-4C06-B33B-47B5E7F7797E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{DAF207FE-42B2-49EE-9E08-EFEDFB88466F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAF207FE-42B2-49EE-9E08-EFEDFB88466F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAF207FE-42B2-49EE-9E08-EFEDFB88466F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5DFFD8-3D8E-4C06-B33B-47B5E7F7797E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5DFFD8-3D8E-4C06-B33B-47B5E7F7797E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5DFFD8-3D8E-4C06-B33B-47B5E7F7797E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5DFFD8-3D8E-4C06-B33B-47B5E7F7797E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
