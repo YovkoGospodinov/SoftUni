@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-
-namespace _02.Collection
+﻿namespace _02.Collection
 {
+    using System;
+    using System.Collections;
+    using System.Collections.Generic;
+
     public class ListyIterator<T> : IEnumerable<T>
     {
-        private IList collection;
+        private IList<T> collection;
         private int currentIndex;
 
         public ListyIterator()
@@ -15,7 +15,7 @@ namespace _02.Collection
             this.collection = new List<T>();
         }
 
-        public ListyIterator(IList collection) 
+        public ListyIterator(IList<T> collection) 
             : this()
         {
             this.collection = collection;
@@ -50,7 +50,10 @@ namespace _02.Collection
 
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            for (int i = 0; i < this.collection.Count; i++)
+            {
+                yield return this.collection[i];
+            }
         }
 
         IEnumerator IEnumerable.GetEnumerator()
