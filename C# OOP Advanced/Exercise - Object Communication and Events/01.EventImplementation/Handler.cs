@@ -1,11 +1,12 @@
 ﻿namespace _01.EventImplementation
 {
+    using System;
+
     public class Handler
     {
-
-        public string OnDispatcherNameChange(object sender, NameChangeEventArgs args)
+        public void OnDispatcherNameChange(object sender, NameChangeEventArgs args)
         {
-            return $"Dispatcher's name change to {args.Name}";
+            Console.WriteLine($"Dispatcher's name changed to {args.Name}.");
         }
     }
 }
