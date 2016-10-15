@@ -1,0 +1,11 @@
+ALTER TABLE Users
+DROP CONSTRAINT PK_Users_Id_UserName
+
+ALTER TABLE Users
+ADD CONSTRAINT Users_Key PRIMARY KEY (Id)
+
+ALTER TABLE Users
+ADD UNIQUE (Username)
+
+ALTER TABLE Users
+ADD CONSTRAINT UsernameMinSize CHECK (LEN(Username) >= 3)
